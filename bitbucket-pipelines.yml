@@ -1,0 +1,16 @@
+image: node:10
+
+definitions:
+  steps:
+    - step: &test
+        name: Test
+        cache:
+          - node
+        script:
+          - yarn install --frozen-lockfile
+          - yarn run test
+
+pipelines:
+  branches:
+    feature/*:
+      - step: *test

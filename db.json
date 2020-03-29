@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Sherlock",
+      "last_name": "Holmes",
+      "gender": "male",
+      "age": 39,
+      "address": "221B Baker Street"
+    },
+    {
+      "first_name": "Jason",
+      "last_name": "Wu",
+      "gender": "male",
+      "age": 25,
+      "address": "GZ",
+      "id": 2
+    }
+  ]
+}
